@@ -264,7 +264,7 @@ test('estimateGasLimitAndTokensChangedTo', async () => {
   const sender = '0x7014a4259a73a328818e9eb8a926ca97';
   const senderPublicKey =
     '0xacb436a0dd18370ddae604a54175b00661003ea464e93217e94e727172e04a8c';
-  const maxGasAmount = 40000000;
+  const maxGasAmount = 10000000;
   const gasUnitPrice = 1;
   const nonce = 63;
   const expirationTimestampSecs = Math.floor(Date.now() / 1000) + 60 * 60;
